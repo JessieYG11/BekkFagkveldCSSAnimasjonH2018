@@ -15,4 +15,23 @@ button {
 
 button:hover {
   background: #008080;
+  color: lightgray;
+  transition: 200ms 100ms ease-in;
+}
+
+button2 {
+  font-size: 40px;
+  color: white;
+  background: #1a9ea5;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: 400ms;
+}
+
+button2:hover {
+  font-size: 80px;
+  background: #17696d;
+  color: black;
+  transition: 1000ms 100ms ease-out;
 }
